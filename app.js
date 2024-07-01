@@ -14,7 +14,7 @@ var scores, roundScore, activePlayer, gameplaying;
 
 init();
 
-document.querySelector('.btn--roll').addEventListener('click', function() { //function() is an anonyous function without a name that cannot be re-used
+document.querySelector('.btn--roll').addEventListener('click', function() {
     if (gameplaying) {
         // 1. Random number
         var dice = Math.floor(Math.random() * 6) + 1;
@@ -70,9 +70,6 @@ function nextPlayer() {
 
     document.querySelector('.player--0').classList.toggle('active');
     document.querySelector('.player--1').classList.toggle('active');
-    
-    //document.querySelector('.player--0').classList.remove('player--active');
-    //document.querySelector('.player--1').classList.add('player--active');
 
     document.querySelector('.dice').style.display = 'none';
 };
@@ -85,8 +82,6 @@ function init() {
     activePlayer = 0;
 
     gameplaying = true;
-
-    //document.querySelector('#current--0').textContent = '0'; to select id with the # symbol, OR
 
     document.getElementById('score--0').textContent = '0';
     document.getElementById('score--1').textContent = '0';
@@ -103,13 +98,5 @@ function init() {
     document.querySelector('.player--1').classList.remove('active');
     document.querySelector('.player--0').classList.add('active');
 
-    document.querySelector('.dice').style.display = 'none'; // to change css property.
-};
-
-
-/*
-//document.querySelector('#current--0').innerHTML = '<em>' + dice + '</em>';
-//document.querySelector('#current--0').textContent = dice; // this is a setter; because we set a value
-//var x = document.querySelector('#name--0').textContent; // this is a getter; we get a value and save it in a variable. just to read the content of the name--0 from html in our browser(console)
-console.log(x);
-*/
+    document.querySelector('.dice').style.display = 'none'; 
+}

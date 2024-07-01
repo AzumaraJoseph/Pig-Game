@@ -13,7 +13,7 @@ init();
 
 //var lastDice;
 
-document.querySelector('.btn--roll').addEventListener('click', function() { //function() is an anonyous function without a name that cannot be re-used
+document.querySelector('.btn--roll').addEventListener('click', function() { 
     if (gameplaying) {
         // 1. Random number
         var dice1 = Math.floor(Math.random() * 6) + 1;
@@ -101,13 +101,9 @@ function nextPlayer() {
 
     document.querySelector('.player--0').classList.toggle('active');
     document.querySelector('.player--1').classList.toggle('active');
-    
-    //document.querySelector('.player--0').classList.remove('player--active');
-    //document.querySelector('.player--1').classList.add('player--active');
 
     document.getElementById('dice-1').style.display = 'none';
     document.getElementById('dice-2').style.display = 'none';
-    //document.querySelector('.dice').style.display = 'none';
 };
 
 document.querySelector('.btn--new').addEventListener('click', init);
@@ -118,8 +114,6 @@ function init() {
     activePlayer = 0;
 
     gameplaying = true;
-
-    //document.querySelector('#current--0').textContent = '0'; to select id with the # symbol, OR
 
     document.getElementById('score--0').textContent = '0';
     document.getElementById('score--1').textContent = '0';
@@ -138,5 +132,4 @@ function init() {
 
     document.getElementById('dice-1').style.display = 'none';
     document.getElementById('dice-2').style.display = 'none';
-    //document.querySelector('.dice').style.display = 'none'; // to change css property.
 };

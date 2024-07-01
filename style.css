@@ -1,5 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');*/
-
 * {
   margin: 0;
   padding: 0;
@@ -164,18 +162,6 @@ button:active {
 button:focus {
   outline: none;
 }
-
-/*i {
-  color: #c7365f;
-  display: inline-block;
-  margin-right: 1.5rem;
-  font-size: 3.2rem;
-  line-height: 1;
-  vertical-align: text-top;
-  margin-top: -.4rem;
-  transition: margin 0.3s;
-}
-*/
 
 .dice {
   position: absolute;
