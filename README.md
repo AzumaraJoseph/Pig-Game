@@ -20,9 +20,10 @@ Check out the live app [here](https://pig-game-js-v2.netlify.app/).
 This project is forked from [Original Repository](https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/07-Pig-Game).
 
 ## Features
-- Responsive design
-- Modern CSS with Flexbox and Grid
-- BEM methodology
+- Rolling the dice
+- Holding the current score
+- Switching between players
+- Resetting the game
 
 ## Deployed
 
