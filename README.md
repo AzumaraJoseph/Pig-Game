@@ -16,6 +16,20 @@ Check out the live app [here](https://pig-game-js-v2.netlify.app/).
 
 * The first player to reach Winner score entered by user on GLOBAL score wins the game.
 
+## Installation
+To install and set up the Pig-Game Project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/AzumaraJoseph/Pig-Game.git
+
+# Navigate to the project directory
+cd Pig-Game
+
+## Bootstrap the application
+live-server
+```
+
 ## Forked From
 This project is forked from [Original Repository](https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/07-Pig-Game).
 
@@ -26,10 +40,7 @@ This project is forked from [Original Repository](https://github.com/jonasschmed
 - Resetting the game
 
 ## Deployed
-
 Deployed on [GitHub Pages](https://AzumaraJoseph.github.io/Pig-Game)
-
-
 
 ## Built With
 - Vanilla Javascript
