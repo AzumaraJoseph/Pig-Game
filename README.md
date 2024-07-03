@@ -30,6 +30,10 @@ cd Pig-Game
 live-server
 ```
 
+
+## Development server
+Run `live-server` for a dev server. Navigate to `http://127.0.0.1:8080/`. The app will automatically reload if you change any of the source files.
+
 ## Forked From
 This project is forked from [Original Repository](https://github.com/jonasschmedtmann/complete-javascript-course/tree/master/07-Pig-Game).
 
