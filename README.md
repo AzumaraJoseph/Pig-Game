@@ -26,8 +26,6 @@ git clone https://github.com/AzumaraJoseph/Pig-Game.git
 # Navigate to the project directory
 cd Pig-Game
 
-## Bootstrap the application
-live-server
 ```
 
 
